@@ -1,0 +1,18 @@
+{
+
+    "extra": {
+        "laravel": {
+            "providers": [
+              "CouponProductServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CouponProducts\\": ""
+        }
+    }
+}

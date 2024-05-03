@@ -1,0 +1,30 @@
+{
+
+    ],
+    "require": {
+        "davejamesmiller/laravel-breadcrumbs": "^5.3",
+        "laraeast/laravel-bootstrap-forms": "^v5.4.0",
+        "laraeast/laravel-locales": "^v3.3.0",
+        "laracasts/flash": "^3.0",
+        "laracasts/presenter": "^0.2.1",
+        "laravel/ui": "^3.0"
+    },
+    "require-dev": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Dashboard\\Providers\\DashboardServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Dashboard\\": ""
+        }
+    }
+}

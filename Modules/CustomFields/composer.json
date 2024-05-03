@@ -1,0 +1,19 @@
+{
+
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+              "CustomFieldOptionServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CustomFields\\": ""
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Stores\\Providers\\StoresServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Stores\\": ""
+        }
+    }
+}

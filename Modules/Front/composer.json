@@ -1,0 +1,19 @@
+{
+
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Front\\Providers\\FrontServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Front\\": ""
+        }
+    }
+}

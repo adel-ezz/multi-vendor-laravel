@@ -1,0 +1,19 @@
+{
+
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Subscriptions\\Providers\\SubscriptionsServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Subscriptions\\": ""
+        }
+    }
+}
